@@ -1,0 +1,49 @@
+.header
+    padding: 0 21px 0 21px
+    &-wrapper
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__logo
+        width: 191px
+    &-contacts
+        width: 412px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-left: auto
+        &__item
+            display: flex
+            align-items: center
+        &__icon
+            width: 30px
+            height: 30px
+            margin-right: 8px
+        &__text
+            font-style: normal
+            font-weight: bold
+            font-size: 16px
+            line-height: 19px
+            letter-spacing: 0.03em
+            color: $color-dark
+    &__btn
+        width: 190px
+        height: 46px
+        margin-left: 61px
+        border: 2px solid $color-primary
+        background-color: transparent
+        filter: drop-shadow(0px 4px 30px rgba(51, 51, 51, 0.1))
+        backdrop-filter: blur(10px)
+        border-radius: 5px
+        font-family: Roboto
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        line-height: 19px
+        color: $color-primary
+        transition: all 0.5s ease 0s
+        cursor: pointer
+        &:hover
+            background: #219653
+            box-shadow: 0px 4px 30px rgba(33, 150, 83, 0.15)
+            color: $color-light
