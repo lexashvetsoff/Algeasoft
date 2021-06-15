@@ -377,4 +377,49 @@ ul li {
   background-color: #219653;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
 }
+
+.modal-thanks {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 30px;
+  background: #fff;
+  width: 343px;
+  border-radius: 12px;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal-thanks--active {
+  visibility: visible;
+  opacity: 1;
+  z-index: 99;
+}
+
+.modal-thanks__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal-thanks__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  color: #333;
+}
+
+.modal-thanks__subtitle {
+  font-style: normal;
+  font-weight: 40000;
+  font-size: 16px;
+  line-height: 17.6px;
+  letter-spacing: -3%;
+  color: #333;
+}
 /*# sourceMappingURL=style.css.map */
