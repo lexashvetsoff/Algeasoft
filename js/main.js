@@ -22,8 +22,7 @@ $(document).ready(function() {
         modal.removeClass('modal-call--active');
     }
 
-    function clickFormBtn(event) {
-        event.preventDefault();
+    function clickFormBtn() {
         var modal = $('.modal-call');
         var thanks = $('.modal-thanks');
 
