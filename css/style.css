@@ -30,6 +30,11 @@ ul li {
   margin: 0 auto;
 }
 
+.container-min {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
 .mb-25 {
   margin-bottom: 25px;
 }
@@ -684,5 +689,110 @@ ul li {
 
 .service-item__link span {
   margin-right: 10px;
+}
+
+.trust {
+  padding-top: 100px;
+  padding-bottom: 92px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/trust/bg.jpg) no-repeat center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/trust/bg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.trust__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.trust__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.trust__text--up {
+  margin-bottom: 60px;
+}
+
+.trust__text span {
+  display: block;
+}
+
+.trust-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.trust-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 325px;
+  min-height: 122px;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0px 4px 30px rgba(33, 150, 83, 0.15);
+          box-shadow: 0px 4px 30px rgba(33, 150, 83, 0.15);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 44px;
+}
+
+.trust-item__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #333;
+}
+
+.trust-item__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #219653;
+}
+
+.trust-item__link span {
+  margin-right: 15px;
+}
+
+.trust-item__link svg {
+  vertical-align: middle;
+}
+
+.trust__subtitle {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */
