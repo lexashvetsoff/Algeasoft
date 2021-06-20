@@ -35,4 +35,17 @@ $(document).ready(function() {
         var thanks = $('.modal-thanks');
         thanks.removeClass('modal-thanks--active');
     }
+
+    // слайдер slick
+    $('.slider').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 2,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        pauseOnFocus: true,
+        pauseOnHover: true,
+        pauseOnDotsHover: true,
+        variableWidth: true
+    });
 });
