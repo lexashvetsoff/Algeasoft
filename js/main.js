@@ -1,8 +1,10 @@
 $(document).ready(function() {
     var headerBtn = $('#header-btn');
+    var footerBtn = $('#footer-wrapper-btn');
     var modalClose = $('.modal-call__close');
     
     headerBtn.on("click", openModal);
+    footerBtn.on("click", openModal);
     modalClose.on("click", closeModal);
 
     var modalBtn = $('#form-btn');
