@@ -551,7 +551,8 @@ ul li {
 .banner-image {
   position: absolute;
   top: 36px;
-  left: 35%;
+  -webkit-transform: translateX(48%);
+          transform: translateX(48%);
   z-index: -1;
   width: 870px;
   height: 423px;
@@ -996,8 +997,8 @@ ul li {
   left: 0;
   right: 0;
   height: 100%;
-  -webkit-clip-path: polygon(100% 0%, 40% 0%, 100% 760%);
-          clip-path: polygon(100% 0%, 40% 0%, 100% 760%);
+  -webkit-clip-path: polygon(100% 0%, 41% 0%, 100% 1000%);
+          clip-path: polygon(100% 0%, 41% 0%, 100% 1000%);
   background-color: #FAFAFA;
 }
 
