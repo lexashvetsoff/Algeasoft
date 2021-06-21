@@ -406,7 +406,7 @@ ul li {
 .modal-thanks--active {
   visibility: visible;
   opacity: 1;
-  z-index: 99;
+  z-index: 105;
 }
 
 .modal-thanks__close {
