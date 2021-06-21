@@ -40,7 +40,7 @@ ul li {
 }
 
 .header {
-  padding: 0 21px 0 21px;
+  padding: 21px 0 21px 0;
 }
 
 .header-wrapper {
@@ -981,5 +981,95 @@ ul li {
 .partners-wrapper__item {
   width: 240px;
   height: 100px;
+}
+
+.consultation {
+  position: relative;
+  padding: 44px 0;
+  background-color: #219653;
+}
+
+.consultation::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  -webkit-clip-path: polygon(100% 0%, 40% 0%, 100% 760%);
+          clip-path: polygon(100% 0%, 40% 0%, 100% 760%);
+  background-color: #FAFAFA;
+}
+
+.consultation-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 100;
+}
+
+.consultation-wrapper__image {
+  position: absolute;
+  top: 10px;
+  -webkit-transform: translateX(-40%);
+          transform: translateX(-40%);
+}
+
+.consultation-wrapper__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #fff;
+  margin-left: 60px;
+}
+
+.consultation-wrapper__text {
+  z-index: inherit;
+  max-width: 475px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.consultation-wrapper__btn {
+  z-index: inherit;
+  padding: 11px 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  border: 2px solid #219653;
+  background: #219653;
+  -webkit-box-shadow: 0px 4px 30px rgba(51, 51, 51, 0.1);
+          box-shadow: 0px 4px 30px rgba(51, 51, 51, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 5px;
+  -webkit-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
+  -webkit-transition: background-color 0.5s ease 0s;
+  transition: background-color 0.5s ease 0s;
+}
+
+.consultation-wrapper__btn:hover {
+  border: 2px solid #219653;
+  background-color: #fff;
+  -webkit-filter: drop-shadow(0px 4px 30px rgba(51, 51, 51, 0.1));
+          filter: drop-shadow(0px 4px 30px rgba(51, 51, 51, 0.1));
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 5px;
+  color: #219653;
 }
 /*# sourceMappingURL=style.css.map */
