@@ -1,0 +1,75 @@
+@media ( max-width: 992px )
+    .header
+        &__btn
+            margin-left: 30px
+
+@media ( max-width: 768px )
+    .header
+        &-contacts
+            display: none
+    .burger-btn
+        display: block
+        position: relative
+        width: 30px
+        height: 20px
+        cursor: pointer
+        z-index: 3
+        &::before
+            content: ''
+            background-color: $color-primary
+            position: absolute
+            width: 100%
+            height: 2px
+            top: 0
+            left: 0
+            transition: all 0.5s ease 0s
+        &::after
+            content: ''
+            background-color: $color-primary
+            position: absolute
+            width: 100%
+            height: 2px
+            left: 0
+            bottom: 0
+            transition: all 0.5s ease 0s
+        &__item
+            position: absolute
+            background-color: $color-primary
+            top: 9px
+            left: 0
+            width: 100%
+            height: 2px
+            transition: all 0.5s ease 0s
+            &--activ
+                display: none
+        &--activ
+            &::before
+                transform: rotate(45deg)
+                top: 9px
+            &::after
+                transform: rotate(-45deg)
+                bottom: 9px
+    .mobile
+        &--activ
+            top: 80px
+
+@media ( max-width: 576px )
+    .header
+        &__logo
+            width: 130px
+        &__btn
+            width: 130px
+            height: 36px
+            font-family: Roboto
+            font-style: normal
+            font-weight: 400
+            font-size: 13px
+            line-height: 19px
+    .mobile
+        &--activ
+            top: 65px
+
+@media ( max-width: 340px )
+    .header
+        &__logo
+            width: 90px

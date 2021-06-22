@@ -47,3 +47,35 @@
             background: #219653
             box-shadow: 0px 4px 30px rgba(33, 150, 83, 0.15)
             color: $color-light
+.burger-btn
+    display: none
+.mobile
+    position: absolute
+    width: 300px
+    padding: 15px 0
+    background-color: $color-dark
+    top: -100%
+    transition: all 0.5s ease 0s
+    z-index: 100
+    &-menu
+        display: flex
+        align-items: center
+        flex-direction: column
+        margin: 0
+        &__item
+            list-style: none
+            color: $color-light
+            margin-bottom: 20px
+        &__link
+            text-decoration: none
+            padding: 9px 13px
+            color: inherit
+            text-transform: uppercase
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            line-height: 17px
+            letter-spacing: 0.06em
+            transition: all 0.5s ease 0s
+            &:hover
+                color: $color-primary

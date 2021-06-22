@@ -50,4 +50,14 @@ $(document).ready(function() {
         pauseOnDotsHover: true,
         variableWidth: true
     });
+
+    // Мобильное меню
+    var burger = $('.burger-btn');
+    burger.on("click", mobileMenu);
+
+    function mobileMenu() {
+        $('.burger-btn').toggleClass('burger-btn--activ');
+        $('.burger-btn__item').toggleClass('burger-btn__item--activ');
+        $('.mobile').toggleClass('mobile--activ');
+    }
 });
