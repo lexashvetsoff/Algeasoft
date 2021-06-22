@@ -1345,4 +1345,10 @@ ul li {
     width: 90px;
   }
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
