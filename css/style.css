@@ -1457,4 +1457,36 @@ ul li {
     width: 300px;
   }
 }
+
+@media (max-width: 1200px) {
+  .service-item {
+    width: 400px;
+  }
+  .service-item__obj {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .service-item {
+    width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .service-item {
+    width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .service-item {
+    width: 300px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
