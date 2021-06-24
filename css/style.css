@@ -1505,4 +1505,17 @@ ul li {
             justify-content: center;
   }
 }
+
+@media (max-width: 768px) {
+  .slider-item {
+    width: 420px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider-item {
+    width: 320px;
+    height: 150px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
