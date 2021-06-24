@@ -28,13 +28,11 @@ ul li {
 .container {
   max-width: 1240px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .container-min {
   max-width: 1060px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 .mb-25 {
@@ -1617,6 +1615,35 @@ ul li {
   .consultation-wrapper__image {
     -webkit-transform: translateX(-47%);
             transform: translateX(-47%);
+  }
+}
+
+@media (max-width: 992px) {
+  .footer {
+    padding-top: 50px;
+  }
+  .footer-wrapper__item-link {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-wrapper__item-link {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .footer-wrapper__item-contact {
+    margin-left: 0;
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
