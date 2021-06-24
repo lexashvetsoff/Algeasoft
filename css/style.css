@@ -1489,4 +1489,12 @@ ul li {
     width: 300px;
   }
 }
+
+@media (max-width: 768px) {
+  .trust-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
