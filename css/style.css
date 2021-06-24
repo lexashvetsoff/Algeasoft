@@ -1518,4 +1518,31 @@ ul li {
     height: 150px;
   }
 }
+
+@media (max-width: 1200px) {
+  .partners-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .partners-wrapper__item {
+    width: 270px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 992px) {
+  .partners-wrapper__item {
+    width: 240px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partners-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=style.css.map */
