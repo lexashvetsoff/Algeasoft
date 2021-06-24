@@ -1,0 +1,48 @@
+@media ( max-width: 1200px )
+    .consultation
+        &-wrapper
+            &__image
+                transform: translateX(-30%)
+            &__title
+                font-size: 35px
+            &__text
+                font-size: 12px
+                max-width: 320px
+@media ( max-width: 992px )
+    .consultation
+        &-wrapper
+            &__image
+                transform: translateX(110%)
+                top: 15px
+                z-index: 200
+            &__title
+                font-size: 25px
+            &__text
+                font-size: 10px
+                max-width: 250px
+            &__btn
+                padding: 10px 10px
+                font-size: 12px
+@media ( max-width: 768px )
+    .consultation
+        padding-top: 75px
+        &::after
+            clip-path: polygon(100% 63%, -192% -40%, 100% 192%)
+        &-wrapper
+            flex-direction: column
+            text-align: center
+            &__image
+                transform: translateX(-61%)
+                top: 195px
+            &__title
+                margin-left: 0
+                margin-bottom: 50px
+            &__btn
+                margin-top: 30px
+@media ( max-width: 576px )
+    .consultation
+        &::after
+            clip-path: polygon(180% 80%, -192% -21%, 100% 192%)
+        &-wrapper
+            &__image
+                transform: translateX(-47%)
