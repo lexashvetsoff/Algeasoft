@@ -2,13 +2,13 @@
 
 <?php include('php/navbar.php')?>
 
-<!-- здесь банер -->
+<?php include('php/about-banner.php')?>
 
 <?php include('php/partners.php')?>
 
 <?php include('php/tasks.php')?>
 
-<!-- Секция "О нас" -->
+<?php include('php/about-description.php')?>
 
 <?php include('php/callback.php')?>
 

@@ -1230,6 +1230,139 @@ ul li {
   color: #F2F2F2;
 }
 
+.main-about {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background-color: #000;
+  position: relative;
+  z-index: 99;
+}
+
+.about-content__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 130%;
+  color: #219653;
+}
+
+.about-content__subtitle {
+  display: block;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 130%;
+  color: #FAFAFA;
+}
+
+.about-content__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.about-content__text-item {
+  display: block;
+}
+
+.breadcrumb {
+  margin-bottom: 22px;
+}
+
+.breadcrumb-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.breadcrumb-list__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 110%;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.breadcrumb-list__item:not(:last-child)::after {
+  content: '/';
+  margin-right: 4px;
+}
+
+.breadcrumb-list__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.about-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  -webkit-transform: translateX(48%);
+          transform: translateX(48%);
+  z-index: -1;
+  width: 870px;
+  background: linear-gradient(44.82deg, #000000 0%, rgba(0, 0, 0, 0) 29.51%), linear-gradient(90.97deg, #000000 0.73%, rgba(0, 0, 0, 0) 25.32%), url(../image/about-company/about-banner.jpg) center left;
+}
+
+.description {
+  padding-top: 70px;
+}
+
+.description-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.description-about {
+  max-width: 50%;
+}
+
+.description-about__title {
+  margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #219653;
+}
+
+.description-about__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+
+.description-about__photo {
+  width: 496px;
+  height: 443px;
+  left: 944px;
+  top: 70px;
+  background: url(../image/about-company/description-img.jpg), #C4C4C4;
+  background-position: center;
+  background-size: cover;
+}
+
 @media (max-width: 1200px) {
   .container, .container-min {
     max-width: 990px;

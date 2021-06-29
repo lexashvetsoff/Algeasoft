@@ -1,4 +1,4 @@
-<section class="main-banner">
+    <section class="main-banner">
         <div class="container">
             <div class="banner-content">
                 <h1 class="banner-content__title">Предоставление облачных услуг</h1>

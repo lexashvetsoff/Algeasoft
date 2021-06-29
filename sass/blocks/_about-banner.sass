@@ -1,0 +1,61 @@
+.main-about
+    padding-top: 60px
+    padding-bottom: 100px
+    background-color: $color-black
+    position: relative
+    z-index: 99
+.about-content
+    &__title
+        font-style: normal
+        font-weight: 500
+        font-size: 44px
+        line-height: 130%
+        color: $color-primary
+    &__subtitle
+        display: block
+        font-style: normal
+        font-weight: 300
+        font-size: 40px
+        line-height: 130%
+        color: $color-subtitle
+    &__text
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 130%
+        letter-spacing: 0.03em
+        color: $color-light
+        margin-bottom: 40px
+        &-item
+            display: block
+.breadcrumb
+    margin-bottom: 22px
+    &-list
+        display: flex
+        align-items: center
+        padding: 0
+        margin: 0
+        list-style: none
+        &__item
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 110%
+            letter-spacing: 0.03em
+            color: rgba(255, 255, 255, 0.25)
+            &:not(:last-child)
+                &::after
+                    content: '/'
+                    margin-right: 4px
+        &__link
+            text-decoration: none
+            color: inherit
+.about-image
+    position: absolute
+    top: 0
+    bottom: 0
+    transform: translateX(48%)
+    z-index: -1
+    width: 870px
+    // background-position: center
+    background: linear-gradient(44.82deg, #000000 0%, rgba(0, 0, 0, 0) 29.51%), linear-gradient(90.97deg, #000000 0.73%, rgba(0, 0, 0, 0) 25.32%), url(../image/about-company/about-banner.jpg) center left

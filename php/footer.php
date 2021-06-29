@@ -6,7 +6,7 @@
                 <div class="footer-wrapper__item-link">
                     <ul class="footer-wrapper__list">
                         <li class="footer-wrapper__list-item">
-                            <a href="#" class="footer-wrapper__list-link">Главная</a>
+                            <a href="/index.php" class="footer-wrapper__list-link">Главная</a>
                         </li>
 
                         <li class="footer-wrapper__list-item">
@@ -28,7 +28,7 @@
                 <div class="footer-wrapper__item-link">
                     <ul class="footer-wrapper__list">
                         <li class="footer-wrapper__list-item">
-                            <a href="#" class="footer-wrapper__list-link">О компании</a>
+                            <a href="/about-company.php" class="footer-wrapper__list-link">О компании</a>
                         </li>
                 
                         <li class="footer-wrapper__list-item">
