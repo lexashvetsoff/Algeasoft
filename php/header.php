@@ -40,7 +40,7 @@
             <div class="mobile">
                 <ul class="mobile-menu">
                     <li class="mobile-menu__item">
-                        <a href="#" class="mobile-menu__link">Главная</a>
+                        <a href="/index.php" class="mobile-menu__link">Главная</a>
                     </li>
                     <li class="mobile-menu__item">
                         <a href="#" class="mobile-menu__link">Услуги</a>
@@ -52,7 +52,7 @@
                         <a href="#" class="mobile-menu__link">Бизнес-кейсы</a>
                     </li>
                     <li class="mobile-menu__item">
-                        <a href="#" class="mobile-menu__link">О компании</a>
+                        <a href="/about-company.php" class="mobile-menu__link">О компании</a>
                     </li>
                     <li class="mobile-menu__item">
                         <a href="#" class="mobile-menu__link">Вопрос-ответ</a>

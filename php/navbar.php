@@ -2,7 +2,7 @@
         <div class="container">
             <ul class="navbar-menu">
                 <li class="navbar-menu__item">
-                    <a href="#" class="navbar-menu__link">Главная</a>
+                    <a href="/index.php" class="navbar-menu__link">Главная</a>
                 </li>
                 <li class="navbar-menu__item">
                     <a href="#" class="navbar-menu__link">Услуги</a>
@@ -14,7 +14,7 @@
                     <a href="#" class="navbar-menu__link">Бизнес-кейсы</a>
                 </li>
                 <li class="navbar-menu__item">
-                    <a href="#" class="navbar-menu__link">О компании</a>
+                    <a href="/about-company.php" class="navbar-menu__link">О компании</a>
                 </li>
                 <li class="navbar-menu__item">
                     <a href="#" class="navbar-menu__link">Вопрос-ответ</a>
