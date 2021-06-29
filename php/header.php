@@ -43,7 +43,7 @@
                         <a href="/index.php" class="mobile-menu__link">Главная</a>
                     </li>
                     <li class="mobile-menu__item">
-                        <a href="#" class="mobile-menu__link">Услуги</a>
+                        <a href="/service-page.php" class="mobile-menu__link">Услуги</a>
                     </li>
                     <li class="mobile-menu__item">
                         <a href="#" class="mobile-menu__link">Поддержка</a>

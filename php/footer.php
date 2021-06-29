@@ -10,7 +10,7 @@
                         </li>
 
                         <li class="footer-wrapper__list-item">
-                            <a href="#" class="footer-wrapper__list-link">Услуги</a>
+                            <a href="/service-page.php" class="footer-wrapper__list-link">Услуги</a>
                         </li>
 
                         <li class="footer-wrapper__list-item">

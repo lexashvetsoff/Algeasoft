@@ -5,7 +5,7 @@
                     <a href="/index.php" class="navbar-menu__link">Главная</a>
                 </li>
                 <li class="navbar-menu__item">
-                    <a href="#" class="navbar-menu__link">Услуги</a>
+                    <a href="/service-page.php" class="navbar-menu__link">Услуги</a>
                 </li>
                 <li class="navbar-menu__item">
                     <a href="#" class="navbar-menu__link">Поддержка</a>
