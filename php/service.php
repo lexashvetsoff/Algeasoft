@@ -12,7 +12,7 @@
                     <div class="service-item__obj service-item__obj--active">
                         <img src="image/img-service/1.png" alt="img 1" class="service-item__image">
                     </div>
-                    <a href="#" class="service-item__link">
+                    <a href="/GPU.php" class="service-item__link">
                         <span>Подробнее</span>
                         <svg class="banner-content__btn-free--icon" width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path class="alpha" d="M3 9.49984H21" stroke="#219653" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />

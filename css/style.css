@@ -39,6 +39,10 @@ ul li {
   margin-bottom: 25px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .header {
   padding: 21px 0 21px 0;
 }
@@ -1361,6 +1365,366 @@ ul li {
   background: url(../image/about-company/description-img.jpg), #C4C4C4;
   background-position: center;
   background-size: cover;
+}
+
+.main-gpu {
+  padding-top: 60px;
+  padding-bottom: 223px;
+  background-color: #000;
+  position: relative;
+  z-index: 99;
+}
+
+.about-content__title--gpu {
+  margin-bottom: 20px;
+}
+
+.about-content__text--gpu {
+  margin-bottom: 63px;
+}
+
+.breadcrumb-gpu {
+  margin-bottom: 31px;
+}
+
+.gpu-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  -webkit-transform: translateX(75%);
+          transform: translateX(75%);
+  z-index: -1;
+  width: 720px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(73.22%, rgba(0, 0, 0, 0)), color-stop(88.35%, #000000)), url(../image/gpu/gpu-banner.jpg) center left;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 73.22%, #000000 88.35%), url(../image/gpu/gpu-banner.jpg) center left;
+}
+
+.k80 {
+  margin-bottom: 85px;
+}
+
+.k80-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.k80-photo {
+  width: 49%;
+  height: 402px;
+  overflow: hidden;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.k80-photo__image {
+  height: 100%;
+  -webkit-filter: drop-shadow(10px 10px 60px rgba(33, 150, 83, 0.8));
+          filter: drop-shadow(10px 10px 60px rgba(33, 150, 83, 0.8));
+}
+
+.k80-present {
+  width: 48%;
+}
+
+.k80-name {
+  padding: 10px;
+  background: #219653;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.k80-name__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #fff;
+}
+
+.k80-name__title span {
+  display: block;
+}
+
+.k80-name__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.k80-invite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.k80-invite__item {
+  margin-left: 10px;
+}
+
+.k80-invite__text {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.03em;
+  color: #333;
+}
+
+.aboutgpu {
+  padding-top: 50px;
+  padding-bottom: 111px;
+}
+
+.aboutgpu__title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 29px;
+  color: #219653;
+}
+
+.aboutgpu-wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  margin-bottom: 77px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutgpu-wrapper__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aboutgpu-wrapper__item svg {
+  vertical-align: baseline;
+}
+
+.aboutgpu-wrapper__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.aboutgpu-wrapper__text {
+  max-width: 400px;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #333;
+}
+
+.aboutgpu-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+.aboutgpu-instances__title {
+  text-align: center;
+  margin-bottom: 23px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333;
+}
+
+.aboutgpu-instances__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutgpu-instances__wrap-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.aboutgpu-instances__btn {
+  display: block;
+  padding: 11px 28px;
+  border: 2px solid #219653;
+  -webkit-filter: drop-shadow(0px 4px 30px rgba(51, 51, 51, 0.1));
+          filter: drop-shadow(0px 4px 30px rgba(51, 51, 51, 0.1));
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #219653;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.aboutgpu-instances__btn:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.aboutgpu-instances__btn:hover {
+  background: #219653;
+  -webkit-box-shadow: 0px 4px 30px rgba(33, 150, 83, 0.2);
+          box-shadow: 0px 4px 30px rgba(33, 150, 83, 0.2);
+  color: #fff;
+}
+
+.aboutgpu-table {
+  width: 1060px;
+  border-collapse: collapse;
+}
+
+.aboutgpu-table__row {
+  text-align: center;
+  height: 48px;
+  color: #333;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.aboutgpu-table__row:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+.aboutgpu-table__row:hover:not(:first-child) {
+  background-color: #219653;
+  color: #fff;
+}
+
+.aboutgpu-table__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+.aboutgpu-table__item--title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333;
+}
+
+.a100 {
+  background-color: #000;
+}
+
+.a100-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.a100-photo {
+  width: 49%;
+  height: 402px;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+}
+
+.a100-photo__image {
+  height: 100%;
+  -webkit-filter: drop-shadow(10px 10px 60px rgba(33, 150, 83, 0.8));
+          filter: drop-shadow(10px 10px 60px rgba(33, 150, 83, 0.8));
+}
+
+.a100-present {
+  width: 48%;
+}
+
+.a100-name {
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.a100-name__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #fff;
+}
+
+.a100-name__title span {
+  display: block;
+}
+
+.a100-name__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.a100-invite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.a100-invite__item {
+  margin-left: 10px;
+}
+
+.a100-invite__text {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {

@@ -1,0 +1,101 @@
+.aboutgpu
+    padding-top: 50px
+    padding-bottom: 111px
+    &__title
+        text-align: center
+        margin-bottom: 40px
+        font-style: normal
+        font-weight: 900
+        font-size: 25px
+        line-height: 29px
+        color: $color-primary
+    &-wrapper
+        max-width: 940px
+        margin: 0 auto
+        margin-bottom: 77px
+        display: flex
+        justify-content: space-between
+        &__item
+            display: flex
+            svg
+                vertical-align: baseline
+            &:not(:last-child)
+                margin-bottom: 15px
+        &__text
+            max-width: 400px
+            margin-left: 10px
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 130%
+            letter-spacing: 0.03em
+            color: $color-dark
+    &-text
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 130%
+        letter-spacing: 0.03em
+        color: $color-dark
+        margin-bottom: 60px
+    &-instances
+        &__title
+            text-align: center
+            margin-bottom: 23px
+            font-style: normal
+            font-weight: 900
+            font-size: 22px
+            line-height: 26px
+            color: $color-dark
+        &__wrapper
+            display: flex
+            align-items: flex-end
+            justify-content: space-between
+        &__wrap-btn
+            display: flex
+            flex-direction: column
+        &__btn
+            display: block
+            padding: 11px 28px
+            border: 2px solid $color-primary
+            filter: drop-shadow(0px 4px 30px rgba(51, 51, 51, 0.1))
+            backdrop-filter: blur(10px)
+            border-radius: 5px
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            line-height: 16px
+            color: $color-primary
+            transition: .5s
+            &:not(:last-child)
+                margin-bottom: 8px
+            &:hover
+                background: $color-primary
+                box-shadow: 0px 4px 30px rgba(33, 150, 83, 0.2)
+                color: $color-light
+    &-table
+        width: 1060px
+        border-collapse: collapse
+        &__row
+            text-align: center
+            height: 48px
+            color: $color-dark
+            transition: .5s
+            &:nth-child(even)
+                background-color: $color-footer
+            &:hover
+                &:not(:first-child)
+                    background-color: $color-primary
+                    color: $color-light
+        &__item
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 130%
+            letter-spacing: 0.03em
+            &--title
+                font-style: normal
+                font-weight: 500
+                font-size: 16px
+                line-height: 19px
+                color: $color-dark
