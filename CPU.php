@@ -2,7 +2,15 @@
 
 <?php include('php/navbar.php')?>
 
+<?php include('php/cpu-banner.php')?>
 
+<?php include('php/advantages.php')?>
+
+<?php include('php/cpu-presentation_1.php')?>
+
+<?php include('php/cpu-presentation_2.php')?>
+
+<?php include('php/cpu-presentation_3.php')?>
 
 <?php include('php/trust.php')?>
 
